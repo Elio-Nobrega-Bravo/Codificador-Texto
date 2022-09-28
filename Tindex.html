@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"> <!--Reset configs padrão do navegador -->
+    <link rel="stylesheet" href="Tstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <title>Codificador de Texto</title>
+</head>
+
+<body class="corpo">
+
+<header>
+     <img class="logo" src="logo.png" alt="Logo da Alura">
+      <h1 class="titulo">CODIFICADOR DE TEXTO</h1>
+</header>
+
+    <main>    
+        <section>
+            <textarea id="entrada" class="texto-principal" placeholder="Digite o Texto (letras minúsculas, sem acento)"></textarea>
+            <button id="btn-criptografar"  class="botao-criptografar">Criptografar</button>
+            <button id="btn-descriptografar" class="botao-descriptografar">Descriptografar</button>
+        </section>
+
+        <section>
+            <textarea id="saida" class="texto" placeholder="Nenhuma mensagem encontrada." maxlength="168"></textarea>
+            <button id="btn-copiar" class="btn-copiar">Copiar</button>
+         </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Elio N. Bravo - 2022</p>
+    </footer>
+
+    <script src="Tscript.js"></script>
+</body>
+</html>
